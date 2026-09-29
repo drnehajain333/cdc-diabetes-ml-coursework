@@ -95,8 +95,3 @@ This analysis identifies statistical patterns and evaluates classification perfo
 Results depend on the dataset, target definition, data preparation, model settings, and evaluation procedure. Further validation and methodological review are needed before drawing broader conclusions.
 
 This is an academic machine learning project, not a clinical diagnostic tool. The models should not be used to diagnose diabetes or make individual medical decisions.
-
-
-
-
-Feature scaling is used for Logistic Regression and Linear SVM in the current comparison.
