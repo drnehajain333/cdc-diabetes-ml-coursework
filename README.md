@@ -6,7 +6,7 @@ Exploratory data analysis, data visualisation, and comparative machine learning 
 
 This project explores the CDC Diabetes Health Indicators dataset through exploratory data analysis (EDA), data visualisation, and a comparative evaluation of five machine learning classification models.
 
-## Research Question
+## Research Question 
 
 How do Logistic Regression, Decision Tree, Random Forest, Gaussian Naive Bayes, and Linear SVM compare in terms of accuracy, precision, recall, and F1-score when classifying the positive class in the CDC Diabetes Health Indicators dataset?
 
