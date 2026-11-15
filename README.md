@@ -94,4 +94,23 @@ This analysis identifies statistical patterns and evaluates classification perfo
 
 Results depend on the dataset, target definition, data preparation, model settings, and evaluation procedure. Further validation and methodological review are needed before drawing broader conclusions.
 
+## Supplementary Experiment: Duplicate Removal Analysis
+
+A supplementary experiment was conducted using the CDC Diabetes Health Indicators dataset to examine the effect of removing exact duplicate rows on machine learning model performance.
+
+The original dataset contained 253,680 records. After removing 24,206 exact duplicate rows, 229,474 records remained.
+
+Five classification algorithms were evaluated:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gaussian Naive Bayes
+- Linear SVM
+
+The performance of the models before and after duplicate removal was compared using accuracy, precision, recall and F1-score.
+
+**Notebook:** `CDC_Diabetes_Duplicate_Analysis.ipynb`
+
+This experiment was conducted separately to preserve the original project and investigate the effect of a different data-handling approach.
+
 This is an academic machine learning project, not a clinical diagnostic tool. The models should not be used to diagnose diabetes or make individual medical decisions.
